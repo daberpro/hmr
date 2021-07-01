@@ -1,0 +1,13 @@
+# Target
+
+membuat penerapan implementasi hmr ( hot module replacement )
+untuk mode developing, untuk web browser
+
+Teknologi yang di gunakan
+- socket.io
+- expressjs
+- nodemon
+- jsonwebtoken
+
+flow pengerjaan:
+    1 membuat module replacement
