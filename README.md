@@ -60,7 +60,7 @@ child pengerjaan:
     5:2 import module dotenv
     5:3 membuat fungsi yang meng assign username & pw dengan secret key dari env file
 
-    6:1 membuat class handlingError extends Error
+    6:1 membuat class HandlingError extends Error
 
 # rule
 1. nama file harus sesuai dengan nama dari code yang ada di dalam nya
