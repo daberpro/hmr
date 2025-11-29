@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Page-1" id="pZIIsLhvdpO4mrzWBflV">
-    <mxGraphModel dx="1684" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2453" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,9 @@
         <mxCell id="2XpUwZnuT6MwmLvJKj0g-43" parent="-MYWUbIsC7t7azScbfjT-6" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="A1" vertex="1">
           <mxGeometry height="50" width="50" x="100" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="2XpUwZnuT6MwmLvJKj0g-47" edge="1" parent="-MYWUbIsC7t7azScbfjT-6" source="2XpUwZnuT6MwmLvJKj0g-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2XpUwZnuT6MwmLvJKj0g-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2XpUwZnuT6MwmLvJKj0g-44" parent="-MYWUbIsC7t7azScbfjT-6" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" value="Membuat surat izin&lt;div&gt;masuk kawasan&amp;nbsp;&lt;/div&gt;&lt;div&gt;taman nasional&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="50" y="150" as="geometry" />
         </mxCell>
@@ -213,7 +216,16 @@
           <mxGeometry height="60" width="150" x="50" y="250" as="geometry" />
         </mxCell>
         <mxCell id="-MYWUbIsC7t7azScbfjT-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Taman Nasional Gunung Palung" vertex="1">
-          <mxGeometry height="560" width="200" x="1390" y="140" as="geometry" />
+          <mxGeometry height="1280" width="200" x="1090" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2XpUwZnuT6MwmLvJKj0g-51" edge="1" parent="-MYWUbIsC7t7azScbfjT-7" source="2XpUwZnuT6MwmLvJKj0g-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2XpUwZnuT6MwmLvJKj0g-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XpUwZnuT6MwmLvJKj0g-48" parent="-MYWUbIsC7t7azScbfjT-7" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" value="Memberikan SIMAKSI&lt;div&gt;dan&amp;nbsp;&lt;/div&gt;&lt;div&gt;pendamping&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="25" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2XpUwZnuT6MwmLvJKj0g-50" parent="-MYWUbIsC7t7azScbfjT-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="A2" vertex="1">
+          <mxGeometry height="50" width="50" x="75" y="340" as="geometry" />
         </mxCell>
         <mxCell id="2XpUwZnuT6MwmLvJKj0g-33" edge="1" parent="1" source="2XpUwZnuT6MwmLvJKj0g-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-MYWUbIsC7t7azScbfjT-47">
           <mxGeometry relative="1" as="geometry">
@@ -238,6 +250,9 @@
           <mxGeometry height="60" width="167.5" x="30" y="675" as="geometry" />
         </mxCell>
         <mxCell id="2XpUwZnuT6MwmLvJKj0g-41" edge="1" parent="1" source="-MYWUbIsC7t7azScbfjT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2XpUwZnuT6MwmLvJKj0g-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XpUwZnuT6MwmLvJKj0g-49" edge="1" parent="1" source="2XpUwZnuT6MwmLvJKj0g-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2XpUwZnuT6MwmLvJKj0g-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
