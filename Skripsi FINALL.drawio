@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="mXMdDefN5Uipg7DoPW_t">
-    <mxGraphModel dx="1585" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1288" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -461,7 +461,7 @@
           <mxGeometry height="40" width="182.5" x="830.75" y="3364" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-129" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="170" width="210" x="1440" y="3030" as="geometry" />
+          <mxGeometry height="170" width="210" x="1550" y="3020" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-122" parent="Fbppu_Kru-deiaCwNXnR-129" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;container=0;" value="" vertex="1">
           <mxGeometry height="170" width="210" as="geometry" />
@@ -481,6 +481,9 @@
         <mxCell id="Fbppu_Kru-deiaCwNXnR-145" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Fbppu_Kru-deiaCwNXnR-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-151" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sequential Block&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 256, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 512, num_layers = 2&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="209.25" x="1160" y="2860" as="geometry" />
         </mxCell>
@@ -490,23 +493,29 @@
         <mxCell id="Fbppu_Kru-deiaCwNXnR-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sequential Block&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 512, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 256, num_layers = 2&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="209.25" x="1160" y="2956" as="geometry" />
         </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-148" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-133" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sequential Block&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 256, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 128, num_layers = 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="209.25" x="1160" y="3053" as="geometry" />
         </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-152" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Conv2d&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 128, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 256, k= 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="209.25" x="1181" y="3300" as="geometry" />
+          <mxGeometry height="60" width="209.25" x="1160" y="3220" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-135" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Conv2d&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 256, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 512, k= 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="209.25" x="1181" y="3381" as="geometry" />
+          <mxGeometry height="60" width="209.25" x="802" y="3490" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-136" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Conv2d&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&amp;nbsp;&lt;/sub&gt;= 512, C&lt;sub&gt;out&lt;/sub&gt;&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;= 256, k= 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="209.25" x="1181" y="3455" as="geometry" />
+          <mxGeometry height="60" width="209.25" x="802" y="3564" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-137" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;b&gt;AdaptiveAveragePool2d (GAP)&lt;/b&gt;&lt;div&gt;avg W x H&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ out_channel x 1 x 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="211.25" x="1181" y="3541" as="geometry" />
+          <mxGeometry height="40" width="211.25" x="802" y="3650" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-138" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;b&gt;Linear&lt;/b&gt;&lt;div&gt;128&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ num classes&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="211.25" x="1180" y="3611" as="geometry" />
+          <mxGeometry height="40" width="211.25" x="801" y="3720" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-139" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="P2" vertex="1">
           <mxGeometry height="30" width="60" x="1041" y="3198" as="geometry" />
@@ -516,6 +525,25 @@
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-140" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="P3" vertex="1">
           <mxGeometry height="30" width="60" x="1041" y="3369" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-149" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-147" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC6600);container=0;" value="&lt;b&gt;Up Sample&lt;/b&gt;&lt;br&gt;&lt;div&gt;Interploation, mode = nearest&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="182.5" x="1173.37" y="3148" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-155" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1435" y="3340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-150" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" value="+" vertex="1">
+          <mxGeometry height="30" width="30" x="1420" y="3235" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC6600);container=0;" value="&lt;b&gt;Up Sample&lt;/b&gt;&lt;br&gt;&lt;div&gt;Interploation, mode = nearest&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="182.5" x="1173.38" y="3320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
