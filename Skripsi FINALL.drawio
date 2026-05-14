@@ -397,7 +397,7 @@
         <mxCell id="Fbppu_Kru-deiaCwNXnR-104" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fbppu_Kru-deiaCwNXnR-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(255, 255, 255));&quot;&gt;⊗&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#000000);" value="&lt;span style=&quot;font-size: 14px; font-weight: 700;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;⊗&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="40" x="443.25" y="2880" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-106" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-105">
@@ -409,7 +409,7 @@
         <mxCell id="Fbppu_Kru-deiaCwNXnR-108" edge="1" parent="1" source="Fbppu_Kru-deiaCwNXnR-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fbppu_Kru-deiaCwNXnR-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fbppu_Kru-deiaCwNXnR-105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SSD_DSConv&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: rgb(204, 204, 204);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Object Detection)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SSD&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: rgb(204, 204, 204);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Object Detection)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="182.5" x="523" y="2951" as="geometry" />
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);container=0;" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Bounding Box &amp;amp; Class Prediction)&lt;/div&gt;" vertex="1">
@@ -417,6 +417,9 @@
         </mxCell>
         <mxCell id="Fbppu_Kru-deiaCwNXnR-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#4D4D4D);container=0;" value="&lt;b&gt;Input Image&lt;/b&gt;&lt;div&gt;RGB&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="872" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="Fbppu_Kru-deiaCwNXnR-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;" value="&lt;span style=&quot;font-size: 14px; font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SSDConvBlock&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;C&lt;sub&gt;in&lt;/sub&gt;, C&lt;sub&gt;out&amp;nbsp;&lt;/sub&gt;= 64, num_layers = 3&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="209.25" x="817.375" y="2940" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
