@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="mXMdDefN5Uipg7DoPW_t">
-    <mxGraphModel dx="2943" dy="1506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1717" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -928,6 +928,24 @@
         </mxCell>
         <mxCell id="4-qxrEgl1HitZma0UjAp-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="alpha 1" vertex="1">
           <mxGeometry height="30" width="60" x="1556" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-106" connectable="0" parent="1" style="group;rotation=90;" value="" vertex="1">
+          <mxGeometry height="170" width="210" x="2050" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-107" parent="4-qxrEgl1HitZma0UjAp-106" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;container=0;rotation=90;" value="" vertex="1">
+          <mxGeometry height="170" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-108" edge="1" parent="4-qxrEgl1HitZma0UjAp-106" source="4-qxrEgl1HitZma0UjAp-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4-qxrEgl1HitZma0UjAp-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-109" parent="4-qxrEgl1HitZma0UjAp-106" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#007FFF);container=0;rotation=90;" value="&lt;b&gt;AdaptiveAveragePool2d (GAP)&lt;/b&gt;&lt;div&gt;avg W x H &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ out_channel x 1 x 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="182.5" x="62" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-110" parent="4-qxrEgl1HitZma0UjAp-106" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#00994D);container=0;rotation=90;" value="&lt;b&gt;Linear&lt;/b&gt;&lt;br&gt;&lt;div&gt;in_channels, num_classes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="182.5" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4-qxrEgl1HitZma0UjAp-111" parent="4-qxrEgl1HitZma0UjAp-106" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;rotation=90;" value="GlobalAuxHead" vertex="1">
+          <mxGeometry height="30" width="126" x="-18" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
