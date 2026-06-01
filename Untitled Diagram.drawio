@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jKB1xeuf93nbEsndxICG">
-    <mxGraphModel dx="896" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2289" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,99 +66,99 @@
         <mxCell id="FopMCmIEbRcaV_IV8GX4-76" parent="1" style="whiteSpace=wrap;strokeWidth=1;fillColor=#fcfcfc;strokeColor=#000;fontColor=light-dark(#333333,#cccccc);" value="Model MADU-Net" vertex="1">
           <mxGeometry height="780" width="301" x="140" y="1150" as="geometry" />
         </mxCell>
-        <mxCell id="VUTiNm0FjUhFZ5U5-TmV-1" connectable="0" parent="1" style="group" value="" vertex="1">
+        <mxCell id="VUTiNm0FjUhFZ5U5-TmV-1" connectable="0" parent="1" style="group;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
           <mxGeometry height="661.5" width="660" x="780" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-79" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Menyiapkan data citra daun" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-79" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Menyiapkan data citra daun" vertex="1">
           <mxGeometry height="39" width="223" x="360" y="146.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-99" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FopMCmIEbRcaV_IV8GX4-84">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-99" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-80" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Mengirim Batch Citra RGB" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-80" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Mengirim Batch Citra RGB" vertex="1">
           <mxGeometry height="39" width="209" x="367" y="235.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-81" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Menerima Logits Segmentasi" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-81" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Menerima Logits Segmentasi" vertex="1">
           <mxGeometry height="63" width="231" x="357" y="294.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-82" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Mengonversi Logits menjadi Binary Mask" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-82" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Mengonversi Logits menjadi Binary Mask" vertex="1">
           <mxGeometry height="63" width="231" x="357" y="407.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-84" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Menerima Input Citra B, 3, 256, 256" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-84" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Menerima Input Citra B, 3, 256, 256" vertex="1">
           <mxGeometry height="63" width="231" x="45" y="68.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-85" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Melakukan Ekstraksi Fitur - Encoder" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-85" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Melakukan Ekstraksi Fitur - Encoder" vertex="1">
           <mxGeometry height="63" width="231" x="45" y="181.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-86" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Memperluas Receptive Field - ASPP" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-86" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Memperluas Receptive Field - ASPP" vertex="1">
           <mxGeometry height="63" width="231" x="45" y="294.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-87" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Melakukan Rekonstruksi Spasial - Decoder" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-87" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Melakukan Rekonstruksi Spasial - Decoder" vertex="1">
           <mxGeometry height="63" width="231" x="45" y="407.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-100" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FopMCmIEbRcaV_IV8GX4-81">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-100" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-101" connectable="0" parent="FopMCmIEbRcaV_IV8GX4-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Logits Prediksi" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-101" connectable="0" parent="FopMCmIEbRcaV_IV8GX4-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#000000);" value="Logits Prediksi" vertex="1">
           <mxGeometry relative="1" x="-0.0788" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-88" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Menghasilkan Matriks Prediksi - Conv 1x1" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-88" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#000000,#000000);" value="Menghasilkan Matriks Prediksi - Conv 1x1" vertex="1">
           <mxGeometry height="63" width="231" x="45" y="520.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-89" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-108" style="curved=1;startArrow=none;endArrow=block;exitX=0.497;exitY=0.971;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="FopMCmIEbRcaV_IV8GX4-79" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-89" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-108" style="curved=1;startArrow=none;endArrow=block;exitX=0.497;exitY=0.971;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-79" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="472.1432613794991" y="96.49151103051986" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-90" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-79" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-80" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-90" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-79" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-80" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-91" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-81" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-82" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-91" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-81" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-82" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-92" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-82" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="FopMCmIEbRcaV_IV8GX4-106" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-92" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-82" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-106" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="473" y="501.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-93" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-84" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-85" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-93" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-84" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-85" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-94" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-85" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-86" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-94" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-85" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-86" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-95" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-86" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-87" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-95" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-86" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-87" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-96" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-87" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="FopMCmIEbRcaV_IV8GX4-88" value="">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-96" edge="1" parent="VUTiNm0FjUhFZ5U5-TmV-1" source="FopMCmIEbRcaV_IV8GX4-87" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontColor=light-dark(#000000,#000000);" target="FopMCmIEbRcaV_IV8GX4-88" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-102" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(0, 0, 0));&quot;&gt;Model MADU-Net&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-102" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;&quot;&gt;Model MADU-Net&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="610" width="330" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-103" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(204, 204, 204), rgb(0, 0, 0));&quot;&gt;Sistem LeafEye&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-103" parent="VUTiNm0FjUhFZ5U5-TmV-1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;&quot;&gt;Sistem LeafEye&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="610" width="330" x="330" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-106" parent="FopMCmIEbRcaV_IV8GX4-103" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;" value="" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-106" parent="FopMCmIEbRcaV_IV8GX4-103" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
           <mxGeometry height="38.5" width="38.5" x="122.5" y="501.5" as="geometry" />
         </mxCell>
-        <mxCell id="FopMCmIEbRcaV_IV8GX4-108" parent="FopMCmIEbRcaV_IV8GX4-103" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" value="" vertex="1">
+        <mxCell id="FopMCmIEbRcaV_IV8GX4-108" parent="FopMCmIEbRcaV_IV8GX4-103" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;fontColor=light-dark(#000000,#000000);" value="" vertex="1">
           <mxGeometry height="38.5" width="38.5" x="123.5" y="61.5" as="geometry" />
         </mxCell>
       </root>
